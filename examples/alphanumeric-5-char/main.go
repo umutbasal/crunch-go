@@ -3,7 +3,7 @@ package main
 import (
 	"io/ioutil"
 
-	"github.com/umutbasal/haveibeentracked/pkg/crunch"
+	"github.com/umutbasal/crunch-go"
 )
 
 func main() {

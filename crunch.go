@@ -15,7 +15,10 @@ const binary = "crunch"
 
 var tmpDir string
 
-//go:embed crunch-wordlist-code/*
+//go:embed crunch-wordlist-code/charset.lst
+//go:embed crunch-wordlist-code/crunch.c
+//go:embed crunch-wordlist-code/crunch.1
+//go:embed crunch-wordlist-code/Makefile
 var crunchFs embed.FS
 
 func build() {
