@@ -1,0 +1,3 @@
+[submodule "crunch-wordlist-code"]
+	path = crunch-wordlist-code
+	url = https://git.code.sf.net/p/crunch-wordlist/code
